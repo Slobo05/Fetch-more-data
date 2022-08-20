@@ -1,0 +1,16 @@
+.krug{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    border: 20px solid white;
+    border-top: 20px solid green;
+    border-bottom: 20px solid green;
+    animation: animacija 1s linear infinite;
+}
+
+@keyframes animacija {
+    100%{
+        transform: rotate(1turn);
+    }
+}
